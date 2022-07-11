@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lovt - Site Oficial</title>
+    <link href = "styles.css" rel= "stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+    </style>
 </head>
 <body>
-    <h1>Welcome, World!</h1>
+    <header>
+        <section class="logo">
+            <img id="logo-image" src= "../Public/Images/Logo.png" alt ="Logo">
+            <img id="logo-slogan" src= "./Images/Slogan.png" alt ="Slogan da Lovt">
+        </section>
+        <nav>
+            <img id="navegacao" src= "../Public/Images/Nav.png" alt ="Menu-Navegacao">
+        </nav>
+    </header>
+    <main>
+        <section id = "banner-principal">
+            <img id= "imagem-banner-principal" src= "../Public/Images/Poster-Principal.png" alt ="Banner Principal">
+        </section>
+        <section id = "banners-produtos">
+            <div class ="box-produto" >
+                <img class = "imagem-produto" src= "../Public/Images/Produto-1.png" alt ="Imóvel 1">
+                <div class = "info-produto">
+                    <div class = "preco-promo">
+                        <h1 class = "preco">$ 1,200</h1>
+                        <h2 class = "tag-promo" id="new" >New</h2>
+                    </div>
+                    <h3 class = "descricao-produto">
+                    Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est. Suco de cevadiss, é um leite divinis, 
+                    qui tem lupuliz, matis, aguis e fermentis. Casamentiss faiz malandris se pirulitá. Cevadis im ampola pa
+                    </h3>
+                </div>
+            </div>
+            <div class ="box-produto" >
+                <img class = "imagem-produto" src= "../Public/Images/Produto-2.png" alt ="Imóvel 2">
+                <div class = "info-produto">   
+                    <div class = "preco-promo">             
+                        <h1 class = "preco">$ 2,000</h1>
+                        <h2 class = "tag-promo" id ="sale">Sale</h2>
+                    </div>
+                    <h3 class = "descricao-produto">
+                    Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est. Suco de cevadiss, é um leite divinis, 
+                    qui tem lupuliz, matis, aguis e fermentis. Casamentiss faiz malandris se pirulitá. Cevadis im ampola pa
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section id = "banners-estilos">
+            <h1 class ="titulo-estilos">Your Style</h1>
+            <img class= "banner-estilo" src= "../Public/Images/Banner Industrial.png" alt ="Banner Industrial">
+            <img class= "banner-estilo"  src= "../Public/Images/Banner Moderno.png" alt ="Banner Moderno">
+            <img class= "banner-estilo" src= "../Public/Images/Banner Clássico.png" alt ="Banner Clássico">
+        </section>
+    </main>
+    <footer>
+        <section id = "rodape">
+            <section id ="mapa">
+                <img src= "../Public/Images/Map.png" alt ="Mapa com endereço">
+            </section>
+            <div id = "footer-left">
+                <section id ="informacoes-complementares">
+                    <h4>LOVT - You love, your loft!</h4>
+                    <h4>Broad St,</h4>
+                    <h4>+1 (973) 854-555-548</h4>
+                    <h4>contact@lovtrealstate.com </h4>
+                </section>
+                <section id ="social-media">
+                    <h4>OUR SOCIAL MEDIAS:</h4>
+                    <img id = "instagram" src= "../Public/Images/Instagram-Icon.png" alt ="Logo do Instagram">
+                    <img id = "facebook" src= "../Public/Images/Facebook-Icon.png" alt ="Logo do Facebook">
+                    <img id = "whatsapp" src= "../Public/Images/Whatsapp-Icon.png" alt ="Logo do Instagram">
+                </section>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

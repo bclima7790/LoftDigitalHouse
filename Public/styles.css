@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    font-size: 30px;
+}
+
+main, #rodape {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+header { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:8px;
+    padding-bottom: 16x;
+    box-shadow: 1px 1px 1px 1px #BBBBBB;
+    margin: 0 0;
+    height: 50px;
+}
+
+.logo {
+    height: 25px;
+    margin-left: 2%;
+}
+
+nav {
+    margin-right: 2%;
+}
+
+#imagem-banner-principal {
+    width:100%;
+    margin-top:20px;
+}
+
+section#banners-produtos { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.preco-promo { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1rem;
+    color: #888888;
+    font-weight: 200;
+}
+
+h4 {
+    color: white;
+    font-size: 0.4rem;
+    font-family: 'Ropa Sans', sans-serif;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+.box-produto {
+    width: 90%;
+}
+
+.info-produto {
+    background: #EEEEEE;
+    margin: 0;
+}
+.imagem-produto {
+    width: 100%;
+}
+
+.descricao-produto {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 0.5rem;
+    color: #888888;
+    font-weight: 200; 
+}
+
+.tag-promo {
+    padding:1% 4%;
+    font-size: 0.7rem;
+    border-radius: 10.5px;
+    font-weight: 200; 
+    font-family: 'Ropa Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 200; 
+}
+
+.tag-promo#new {
+    background: #51D275;
+}
+
+.tag-promo#sale {
+    background: #DC9730;
+}
+
+
+section#banners-estilos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-estilo {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.5);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+footer {
+    background: rgba(51, 51, 51, 1);
+    margin-top: 70px;
+    height: 220px;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:25px;
+
+}
+
+#footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    border: solid red 2px;
+}
+
+#social-media {
+    margin-top: 10px;
+}
