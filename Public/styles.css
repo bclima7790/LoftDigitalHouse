@@ -38,7 +38,7 @@ section#banners-produtos {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 40px;
 }
@@ -65,15 +65,17 @@ h4 {
     font-weight: 200;
 }
 .box-produto {
-    width: 90%;
+    width: 48%;
 }
 
 .info-produto {
     background: #EEEEEE;
     margin: 0;
+    padding: 3%;
 }
 .imagem-produto {
     width: 100%;
+    margin: 0;
 }
 
 .descricao-produto {
@@ -137,9 +139,9 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    border: solid red 2px;
 }
 
 #social-media {
     margin-top: 10px;
+    width: 200px;
 }
